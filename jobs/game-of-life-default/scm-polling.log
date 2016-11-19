@@ -1,0 +1,14 @@
+Started on Nov 16, 2016 5:16:00 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 0710c5be98d374e138e5a4206967541ab937ab25 (refs/remotes/origin/master)
+using .gitcredentials to set credentials
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe --version # timeout=10
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe init C:\Users\NAGARA~1.NOO\AppData\Local\Temp\hudson3580155792024611563tmp # timeout=10
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe config --local credential.username nookala.nagaraj@gmail.com # timeout=10
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe config --local credential.helper store --file=\"C:\Users\NAGARA~1.NOO\AppData\Local\Temp\git9167826379115947878.credentials\" # timeout=10
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe -c core.askpass=true ls-remote -h https://github.com/nooknaga/game-of-life.git # timeout=10
+ > C:\Program Files\Git\mingw64\libexec\git-core\git.exe config --local --remove-section credential # timeout=10
+Found 1 remote heads on https://github.com/nooknaga/game-of-life.git
+[poll] Latest remote head revision on refs/heads/master is: 0710c5be98d374e138e5a4206967541ab937ab25 - already built by 5
+Done. Took 6.8 sec
+No changes
